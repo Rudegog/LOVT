@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+body{
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+header{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+}
+
+.general{
+    font-family: 'Ropa Sans', sans-serif;
+    display: flex;
+}
+
+.logoLovt {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    font-size: 4rem;
+    color: #777777;
+    cursor: pointer;
+}
+
+.subLogo {
+    display: flex;
+    flex-direction: column;
+    color: #AAAAAA;
+    margin-top: 2.5%;
+    font-size: 1rem;
+    width: 10%;
+    cursor: pointer;
+}
+
+.barrec {
+    margin-left: 50vw;
+    margin-right: auto;
+    margin-top: 20px auto;
+}
+
+.barrec img {
+    display: flex;
+    padding-top: 200%;
+    width: auto;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.imgCenter {
+    display: flex;
+    height: 60vh;
+    width: 80vw;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 10%;
+    align-items: center;
+    background-size: cover;
+    background-image: url('/img/img-centro.svg');
+    padding: 0%;
+}
+
+.left,
+.right {
+    margin-left: 2%;
+    margin-right: 2%;
+    border: none;
+    background-color: rgba(141, 141, 141, 0.62);
+    width: 5%;
+    height: 12%;
+    cursor: pointer;
+    transition: 10ms;
+    justify-content: space-between;
+    border-radius: 100%;
+}
+
+
